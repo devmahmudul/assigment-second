@@ -1,0 +1,278 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: Raleway;
+}
+.header {
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: center;
+	background: url(img/banner-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.logo {
+	width: 30%;
+	float: left;
+	padding: 2% 8%;
+	box-sizing: border-box;
+}
+.nav {
+	width: 30%;
+	float: left;
+	margin-top: 2%;
+}
+.nav-btn {
+	width: 30%;
+	float: right;
+	margin-top: 2%;
+}
+.nav ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 5px 9px;
+}
+.nav ul li a {
+	text-decoration: none;
+	font-size: 17px;
+    color:#fff;
+}
+.nav-btn .btn {
+	background-color: #c6610f;
+	padding: 9px 18px;
+	color: #fff;
+	border-radius: 8px;
+	font-size: 20px;
+	border: none;
+}
+.nav-btn .btn2 {
+	padding: 9px 18px;
+	background-color: rgb(9, 14, 54);
+	border-radius: 10px;
+	font-size: 20px;
+	border: none;
+	color: #fff;
+}
+ .nav-btn .btn2:hover{
+    background-color:#c6610f;
+ }
+ 
+ .content-wrapper {
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+	top: 33%;
+}
+ .content-text{
+   width:45%;
+   float:left;
+   color:#fff;
+   padding-left: 5%;
+ }
+ .content-text h1 {
+	font-size: 60px;
+}
+.content-text p {
+	line-height: 27px;
+	font-size: 18px;
+}
+ .ads-btn {
+	background-color: #c6610f;
+	padding: 13px 54px;
+	color: #fff;
+	border-radius: 19px;
+	font-size: 20px;
+	border: none;
+}
+.content-text .contact-btn {
+	background-color: #fff;
+	padding: 13px 54px;
+	color: #000;
+	border-radius: 19px;
+	font-size: 20px;
+	border: none;
+	margin-top: 5%;
+	margin-left: 3%;
+}
+
+.content-img {
+	width: 45%;
+	float: right;
+
+	margin-right: 5%;
+	box-sizing: border-box;
+
+	padding-bottom: 12px;
+	
+}
+.content-img img{
+    width:80%;
+}
+.about-section{
+    overflow: hidden;
+    padding:5% 0;
+
+    
+}
+
+.about-img {
+	width: 45%;
+	float: left;
+	background: url(img/about-bg.png);
+	background-size: 190%;
+	background-repeat: no-repeat;
+	padding-bottom: 15%;
+	margin-top: -4%;
+}
+.about-img img {
+	width: 70%;
+	margin-top: 19%;
+	margin-left: 15%;
+}
+.about-content{
+width:45%;
+float: right;
+margin-left: 2%;
+text-align:right;
+}
+.about-content span{
+    color:#c6610f;
+}
+.about-content p {
+	line-height: 25px;
+	padding-bottom: 10px;
+	padding-top: 41px;
+	margin-right: 12%;
+	padding-bottom: 7%;
+}
+.about-content h1 {
+	font-size: 35px;
+	text-transform: uppercase;
+	border-bottom: 1px solid black;
+	width: 32%;
+	padding-bottom: 16px;
+	margin-left: 52%;
+}
+.ads-btn4 {
+	background-color: #c6610f;
+	padding: 13px 54px;
+	color: #fff;
+	border-radius: 19px;
+	font-size: 20px;
+	border: none;
+	/* margin-left: -18%; */
+	margin-right: 13%;
+}
+.classfield{
+padding-bottom: 10px;
+padding-left: 5%;
+}
+.class-title h1{
+color:black;
+}
+.class-title h2 {
+	color: #c6610f;
+	border-bottom: 1px solid black;
+	width: 30%;
+	font-size: 33px;
+	margin-top: 13px;
+	padding-bottom: 17px;
+}
+.class-title p{
+ line-height: 22px;
+ margin-top: 2%;
+}
+.classfield {
+	overflow: hidden;
+	padding-top: 5%;
+	padding-bottom: 7%;
+}
+
+.classfield-img{
+    width: 10%;
+    float: left;
+    margin-top: 2%;
+}
+.class-content {
+	width: 72%;
+	float: left;
+	margin-left: 11%;
+	margin-top: 6%;
+}
+
+.sale2{
+	overflow: hidden;
+}
+.sale {
+	overflow: hidden;
+	margin-top: 3%;
+}
+.class-content h1 {
+	font-size: 24px;
+	padding-bottom: 3%;
+}
+.class-content p {
+	font-size: 17px;
+	line-height: 24px;
+	
+}
+.classfield2-img{
+	width: 10%;
+    float: left;
+    margin-top: 2%;
+}
+.class-content2{
+	width: 72%;
+	float: left;
+	margin-left: 11%;
+	margin-top: 6%;
+}
+.class-content2 h1 {
+	font-size: 24px;
+	padding-bottom: 3%;
+}
+.class-content2 p {
+	font-size: 17px;
+	line-height: 24px;
+	
+}
+.read-btn {
+	background-color: #c6610f;
+	padding: 13px 44px;
+	color: #fff;
+	border-radius: 19px;
+	font-size: 20px;
+	border: none;
+
+	margin-top: 2%;
+}
+.review{
+  background: url(img/client-bg.png);
+}
+.review-content {
+	padding: 5% 5%;
+}
+.review-client {
+	text-align: center;
+	padding-bottom: 5%;
+}
+.review-client h2 {
+	font-weight: 500;
+	margin-top: 27px;
+	padding-bottom: 2%;
+}
+.review-client h5 {
+	color: #c6610f;
+	font-size: 21px;
+	font-weight: 500;
+	padding-bottom: 2%;
+}
+.review-client p {
+	width: 57%;
+	margin: auto;
+	line-height: 24px;
+}
